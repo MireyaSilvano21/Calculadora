@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="VentanaSuma" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="400.0" prefHeight="333.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadoraequipo.OperacionS">
+    <children>
+        <Pane minHeight="400.0" minWidth="400.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label fx:id="lblPrimerValor" layoutX="98.0" layoutY="46.0" text="Ingresa el primer valor:" />
+                <Label fx:id="lblSegundoValor" layoutX="92.0" layoutY="93.0" text="Ingresa el segundo valor:">
+               <padding>
+                  <Insets top="20.0" />
+               </padding></Label>
+                <TextField fx:id="txtPrimerValor" layoutX="87.0" layoutY="67.0" prefHeight="26.0" prefWidth="231.0" />
+                <TextField fx:id="txtSegundoValor" layoutX="90.0" layoutY="139.0" prefHeight="19.0" prefWidth="225.0">
+               <padding>
+                  <Insets top="50.0" />
+               </padding></TextField>
+                <Button fx:id="btnSumar" layoutX="160.0" layoutY="233.0" mnemonicParsing="false" onAction="#sumar" prefHeight="6.0" prefWidth="82.0" text="Sumar" />
+                <Label fx:id="lblResultado" layoutX="92.0" layoutY="194.0" prefHeight="0.0" prefWidth="208.0" />
+            </children>
+        </Pane>
+    </children>
+   <stylesheets>
+      <URL value="@../../../style/style.css" />
+      <URL value="@../../../style/style.css" />
+   </stylesheets>
+</VBox>
