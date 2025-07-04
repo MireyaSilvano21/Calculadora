@@ -25,4 +25,15 @@ public class HelloController {
 
     }
 
+    @FXML
+    protected void multiplicar(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("multi.fxml"));
+        Parent root = loader.load();
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.setTitle("Ventana multiplicar");
+        stage.show();
+
+    }
+
 }
