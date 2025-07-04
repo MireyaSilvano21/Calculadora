@@ -2,10 +2,16 @@ package com.example.calculadoraequipo;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
 import java.io.IOException;
 
 public class Multiplicacion {
@@ -28,4 +34,16 @@ private Button  btnResulMulti;
         double result = num1 * num2;
         labResulMulti.setText("El resultado es " + result );
     }
+
+    @FXML
+    protected void regresar(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
+        Parent root = loader.load();
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.setTitle("Ventana division");
+        stage.show();
+    }
+
 }

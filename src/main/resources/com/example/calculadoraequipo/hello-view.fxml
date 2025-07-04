@@ -11,10 +11,10 @@
     </padding>
    <AnchorPane prefHeight="396.0" prefWidth="307.0">
       <children>
-         <Button fx:id="btnSumar" layoutX="25.0" layoutY="190.0" mnemonicParsing="false" onAction="#cambiarVentanaSuma" prefHeight="51.0" prefWidth="102.0" text="Sumar" />
-         <Button fx:id="btnRestar" layoutX="166.0" layoutY="190.0" mnemonicParsing="false" onAction="#restar" prefHeight="51.0" prefWidth="102.0" text="Restar" />
-         <Button fx:id="btnMulti" layoutX="25.0" layoutY="256.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="55.0" prefWidth="102.0" text=" Multiplicar" />
-         <Button fx:id="btnDividir" layoutX="166.0" layoutY="258.0" mnemonicParsing="false" onAction="#dividir" prefHeight="51.0" prefWidth="102.0" text="Dividir" />
+         <Button fx:id="btnSumar" layoutX="25.0" layoutY="190.0" mnemonicParsing="false" onAction="#cambiarVentanaSuma" prefHeight="51.0" prefWidth="130.0" text="Sumar" />
+         <Button fx:id="btnRestar" layoutX="166.0" layoutY="190.0" mnemonicParsing="false" onAction="#restar" prefHeight="51.0" prefWidth="130.0" text="Restar" />
+         <Button fx:id="btnMulti" layoutX="25.0" layoutY="256.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="55.0" prefWidth="130.0" text=" Multiplicar" />
+         <Button fx:id="btnDividir" layoutX="166.0" layoutY="258.0" mnemonicParsing="false" onAction="#dividir" prefHeight="51.0" prefWidth="130.0" text="Dividir" />
          <Label fx:id="lbloperacion" layoutX="25.0" layoutY="65.0" prefHeight="72.0" prefWidth="259.0" text="¿Que operacion deseas realizar?">
             <font>
                <Font name="Brush Script MT Italic" size="14.0" />

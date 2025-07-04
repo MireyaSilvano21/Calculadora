@@ -7,13 +7,13 @@
    <children>
       <Pane minHeight="400.0" minWidth="400.0" prefHeight="200.0" prefWidth="200.0">
          <children>
-            <Label layoutX="232.0" layoutY="66.0" text="Ingresa el primer numero:" />
-            <TextField fx:id="txtNumero1" layoutX="231.0" layoutY="91.0" />
-            <TextField fx:id="txtNumero2" layoutX="231.0" layoutY="146.0" />
-            <Label layoutX="232.0" layoutY="122.0" text="Ingresa el segundo numero:" />
-            <Label fx:id="labResulDivi" layoutX="232.0" layoutY="183.0" prefHeight="17.0" prefWidth="149.0" />
-            <Button fx:id="btnResulDivi" layoutX="264.0" layoutY="213.0" mnemonicParsing="false" onAction="#resultado" text="Dividir" />
-         </children>
+            <Label layoutX="150.0" layoutY="48.0" text="Ingresa el primer numero:" />
+            <TextField fx:id="txtNumero1" layoutX="142.0" layoutY="77.0" />
+            <TextField fx:id="txtNumero2" layoutX="142.0" layoutY="141.0" />
+            <Label fx:id="labResulDivi" layoutX="207.0" layoutY="174.0" prefHeight="17.0" prefWidth="149.0" />
+            <Label layoutX="143.0" layoutY="117.0" text="Ingresa el segundo numero:" />
+            <Button fx:id="btnResulDivi" layoutX="138.0" layoutY="223.0" mnemonicParsing="false" onAction="#resultado" prefHeight="40.0" prefWidth="123.0" text="Dividir" />
+            <Button fx:id="btnregre" layoutX="294.0" layoutY="223.0" mnemonicParsing="false" onAction="#regresar" prefHeight="40.0" prefWidth="123.0" text="Regresar" />         </children>
       </Pane>
    </children>
 </VBox>
