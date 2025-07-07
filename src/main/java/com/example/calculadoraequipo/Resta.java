@@ -41,7 +41,7 @@ private Button  btnResulRes;
         Parent root = loader.load();
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
-        stage.setTitle("Ventana division");
+        stage.setTitle("CALCULADORA");
         stage.show();
     }
 

@@ -3,17 +3,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadoraequipo.Division">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadoraequipo.Division">
    <children>
-      <Pane minHeight="400.0" minWidth="400.0" prefHeight="200.0" prefWidth="200.0">
+      <Pane minHeight="400.0" minWidth="381.0" prefHeight="406.0" prefWidth="391.0">
          <children>
-            <Label layoutX="150.0" layoutY="48.0" text="Ingresa el primer numero:" />
-            <TextField fx:id="txtNumero1" layoutX="142.0" layoutY="77.0" />
-            <TextField fx:id="txtNumero2" layoutX="142.0" layoutY="141.0" />
-            <Label fx:id="labResulDivi" layoutX="207.0" layoutY="174.0" prefHeight="17.0" prefWidth="149.0" />
-            <Label layoutX="143.0" layoutY="117.0" text="Ingresa el segundo numero:" />
-            <Button fx:id="btnResulDivi" layoutX="138.0" layoutY="223.0" mnemonicParsing="false" onAction="#resultado" prefHeight="40.0" prefWidth="123.0" text="Dividir" />
-            <Button fx:id="btnregre" layoutX="294.0" layoutY="223.0" mnemonicParsing="false" onAction="#regresar" prefHeight="40.0" prefWidth="123.0" text="Regresar" />         </children>
+            <Label layoutX="53.0" layoutY="36.0" text="Ingresa el primer numero:" />
+            <TextField fx:id="txtNumero1" layoutX="53.0" layoutY="82.0" />
+            <TextField fx:id="txtNumero2" layoutX="53.0" layoutY="168.0" />
+            <Label fx:id="labResulDivi" layoutX="53.0" layoutY="221.0" prefHeight="17.0" prefWidth="149.0" />
+            <Label layoutX="53.0" layoutY="123.0" text="Ingresa el segundo numero:" />
+            <Button fx:id="btnResulDivi" layoutX="56.0" layoutY="281.0" mnemonicParsing="false" onAction="#resultado" prefHeight="40.0" prefWidth="123.0" text="Dividir" />
+            <Button fx:id="btnregre" layoutX="207.0" layoutY="281.0" mnemonicParsing="false" onAction="#regresar" prefHeight="40.0" prefWidth="123.0" text="Regresar" />         </children>
       </Pane>
    </children>
 </VBox>
